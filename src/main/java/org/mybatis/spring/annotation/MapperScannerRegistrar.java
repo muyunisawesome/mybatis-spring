@@ -53,13 +53,13 @@ public class MapperScannerRegistrar implements ImportBeanDefinitionRegistrar, Re
 
   /**
    * {@inheritDoc}
-   * 
+   *
    * @deprecated Since 2.0.2, this method not used never.
    */
   @Override
   @Deprecated
   public void setResourceLoader(ResourceLoader resourceLoader) {
-    // NOP
+    // NOP 试一下
   }
 
   /**
@@ -144,7 +144,7 @@ public class MapperScannerRegistrar implements ImportBeanDefinitionRegistrar, Re
 
   /**
    * A {@link MapperScannerRegistrar} for {@link MapperScans}.
-   * 
+   *
    * @since 2.0.0
    */
   static class RepeatingRegistrar extends MapperScannerRegistrar {
